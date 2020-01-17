@@ -14,15 +14,12 @@ The base-path is `job/IntellectualSites/job/Jenkins-Buttons/ws/icons/` followed 
 If you have your own Jenkins server setup, simply create a new job with this repository to import the icons. This job doesn't require any build tasks, just let the CI import this repository.  
 After that can you use the path to your newly created job in the `Link Icon` field. For example `job/<job name>/ws/icons/discord.jpg` will display the [Discord Icon](/icons/discord.jpg)
 
-Simply set up a job with this repository to import the icons. You don't need any build tasks, just let the CI import this repository.    
-After that, you can point the `Link Icon` field to a job, e.g. `job/<job name>/ws/icons/discord.jpg` and it will display the discord icon.   
 You can use icons in jobs, view tabs, folders or on the main page. Generally everywhere where you have the management bar on the left side.
 
 One job per CI is enough. You don't need to setup multiple jobs for this project, once Jenkins imported the icons, everyone can use them.
 
 ## Troubleshooting
-If your CI or job uses project-based security (Matrix based security), make sure to grant `Anonymous Users` or generally everyone Workspace access to this job, otherwise Jenkins cannot display the icons.
-<br>
+If your CI or job uses project-based security (Matrix based security), make sure to grant `Anonymous Users` or generally everyone Workspace access to this job, otherwise Jenkins cannot display the icons.  
 Some CIs have issues with png files. For the best experience, make sure you are using jpg files.
 
 ## Adding custom icons
